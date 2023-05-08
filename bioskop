@@ -1,1 +1,12 @@
+nilai_tugas = float(input('Masukkan Nilai Tugas: '))
+nilai_uts = float(input('Masukkan Nilai UTS: '))
+nilai_uas = float(input('Masukkan Nilai UAS: '))
 
+nilai_akhir = nilai_tugas*0.30 + nilai_uts*0.35 + nilai_uas*0.35
+
+if nilai_akhir >= 60:
+    print('Selamat anda lulus')
+    print(f'Nilai akhir {nilai_akhir}')
+else:
+    print('Tidak lulus')
+    print(f'Nilai akhir {nilai_akhir}')
